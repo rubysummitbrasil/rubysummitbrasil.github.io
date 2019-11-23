@@ -1,6 +1,4 @@
-<p align="center">
-  <img scr="logo-for-readme.png">
-</p>
+# Ruby Summit Brasil Website
 
 Olá!
 
