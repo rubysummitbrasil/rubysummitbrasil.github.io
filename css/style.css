@@ -7,6 +7,14 @@ img {
   width: 10em;
 }
 
+.date {
+  font-size: 24px;
+}
+
+.location {
+  font-size: 20px;
+}
+
 .content {
   height: 100%;
   background-position: center;
