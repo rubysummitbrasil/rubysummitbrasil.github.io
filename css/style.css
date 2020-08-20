@@ -1,48 +1,28 @@
-body, html {
-  height: 100%;
-  margin: 0;
+body {
+  font-family: "Helvetica", "Arial", sans-serif;
+  margin: 0 auto;
+  max-width: 50em;
+  line-height: 1.5;
+  padding: 4em 1em;
+}
+
+.content {
+  margin: auto;
+  background: white;
+  padding: 10px;
+  text-align: center;
 }
 
 img {
+  width: 15em;
+}
+
+hr {
+  margin: auto;
   width: 10em;
 }
 
 a {
   color: #00ACEE;
   text-decoration: underline;
-}
-
-a:hover {
-  text-decoration: none;
-}
-
-.date {
-  font-size: 24px;
-}
-
-.twitter-text {
-  font-size: 20px;
-}
-
-.content, .support {
-  height: 100%;
-  background-position: center;
-  background-size: cover;
-  position: relative;
-  font-family: "Helvetica", "Arial", sans-serif;
-  font-size: 25px;
-}
-
-.middle {
-  width: 100%;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
-
-hr {
-  margin: auto;
-  width: 10em;
 }
