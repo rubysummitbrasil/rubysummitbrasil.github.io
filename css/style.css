@@ -26,3 +26,21 @@ a {
   color: #00ACEE;
   text-decoration: underline;
 }
+
+.button-cfp {
+  background-color: #D62230;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.button-cfp:hover {
+  background-color: #b01c28;
+}
