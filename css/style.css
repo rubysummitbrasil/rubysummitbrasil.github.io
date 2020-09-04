@@ -1,12 +1,15 @@
 body {
   font-family: "Helvetica", "Arial", sans-serif;
   margin: 0 auto;
-  max-width: 50em;
   line-height: 1.5;
-  padding: 4em 1em;
+}
+
+li {
+  list-style-type: none;
 }
 
 .content {
+  max-width: 90em;
   margin: auto;
   background: white;
   padding: 10px;
@@ -14,7 +17,12 @@ body {
 }
 
 img {
-  width: 15em;
+  max-width: 15em;
+  height: auto;
+}
+
+.square-image {
+  max-width: 100px;
 }
 
 hr {
@@ -43,4 +51,15 @@ a {
 
 .button-cfp:hover {
   background-color: #b01c28;
+}
+
+.sponsors-list {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.sponsor{
+  padding: 0 10px 0;
 }
