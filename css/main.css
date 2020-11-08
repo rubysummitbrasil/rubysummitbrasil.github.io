@@ -1,0 +1,119 @@
+.main-container {
+  margin: 70px auto 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  box-shadow: 0px 8px 5px 0px rgba(44,44,44,0.1);
+}
+
+.main-container a, .main-container a:visited {
+  color: #FFF;
+  font-weight: bolder;
+}
+
+.main-container a:hover {
+  color: #F00;
+  font-weight: bolder;
+  text-decoration: underline;
+}
+
+#schedule {
+  background: linear-gradient(180deg, rgb(230 228 218) 0%, rgb(253 253 252) 100%);
+}
+#speakers {
+  background: linear-gradient(180deg, rgb(253 253 252) 0%, rgb(230 228 218) 100%);
+}
+#sponsors {
+  background: linear-gradient(180deg, rgb(230 228 218) 0%, rgb(253 253 252) 100%);
+}
+
+.rubysummitbr {
+  background: linear-gradient(180deg, rgba(36,0,0,1) 0%, rgba(89,0,0,1) 0%, rgba(162,0,0,1) 100%);
+  padding: 5px;
+  min-height: 200px;
+  height: 400px;
+  text-align: center;
+  color: #FFF;
+}
+
+.schedule {
+  padding: 5px 0 30px;
+  min-height: 200px;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.schedule table {
+  width: 100%;
+}
+
+.schedule img {
+  max-width: 25em;
+  height: auto;
+}
+
+.schedule .days {
+  display: flex;
+  display: none;
+  justify-content: space-around;
+}
+.schedule .track {
+  flex-grow: 1;
+  max-width: calc(50% - 20px);
+}
+
+.speakers {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(250px, 300px));
+  padding: 5px;
+  margin: 0 100px;
+  justify-content: center;
+  text-align: center;
+}
+
+.speaker img {
+  border-radius: 50%;
+}
+
+.sponsors {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(250px, 300px));
+  gap: 15px;
+  padding: 5px;
+  margin: 0 100px;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+}
+
+.sponsor {
+  box-shadow: 0px 1px #efefef;
+}
+
+.sponsors-title, .speakers-title {
+  text-align: center;
+  /* max-width: 1200px;
+  margin: 0 100px; */
+}
+
+.sponsor img {
+  max-width: 15em;
+  max-height: 120px;
+  height: auto;
+}
+
+@media only screen and (max-width: 600px) {
+  .main-container {
+    display: block;
+    margin: auto 0px;
+  }
+
+  .sponsors {
+    display: block;
+  }
+
+
+  .speaker img {
+    max-width: 9em;
+  }
+}

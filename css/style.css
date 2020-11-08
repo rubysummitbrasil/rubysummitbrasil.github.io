@@ -12,21 +12,13 @@ li {
   list-style-type: none;
 }
 
-.content {
-  max-width: 90em;
-  margin: auto;
-  background: white;
-  padding: 10px;
-  text-align: center;
+h1 {
+  font-size: 1.5em;
 }
 
 img {
   max-width: 15em;
   height: auto;
-}
-
-.square-image {
-  max-width: 100px;
 }
 
 hr {
@@ -39,22 +31,22 @@ a {
   text-decoration: underline;
 }
 
-.button-cfp {
-  background-color: #D62230;
-  border: none;
-  color: white;
-  padding: 15px 32px;
+footer {
   text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-  border-radius: 8px;
+
+  background-color: #fffbfb;
 }
 
-.button-cfp:hover {
-  background-color: #b01c28;
+.content {
+  max-width: 90em;
+  margin: auto;
+  background: white;
+  padding: 10px;
+  text-align: center;
+}
+
+.square-image {
+  max-width: 100px;
 }
 
 .sponsors-list {
@@ -66,4 +58,8 @@ a {
 
 .sponsor{
   padding: 0 10px 0;
+}
+
+.icon {
+  height: 20px;
 }
