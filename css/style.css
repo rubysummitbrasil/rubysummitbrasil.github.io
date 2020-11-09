@@ -2,14 +2,16 @@ body {
   font-family: "Helvetica", "Arial", sans-serif;
   margin: 0 auto;
   line-height: 1.5;
+  background: #fff url('../images/bodyback.png') left top;
+}
+
+body, ul, li {
+  padding: 0;
+  margin: 0
 }
 
 ul {
-  padding: 0;
-}
-
-li {
-  list-style-type: none;
+    list-style-type: none;
 }
 
 h1 {
@@ -21,43 +23,25 @@ img {
   height: auto;
 }
 
-hr {
-  margin: auto;
-  width: 10em;
-}
-
-a {
-  color: #00ACEE;
-  text-decoration: underline;
+a, a:hover, a:visited {
+  color: #000;
+  text-decoration: none;
 }
 
 footer {
+  color: #000;
   text-align: center;
-
-  background-color: #fffbfb;
+  font-weight: bolder;
+  height: 70px;
 }
 
-.content {
-  max-width: 90em;
-  margin: auto;
-  background: white;
-  padding: 10px;
-  text-align: center;
+footer p {
+  color: #380000;
 }
 
-.square-image {
-  max-width: 100px;
-}
-
-.sponsors-list {
-  display: inline-flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-}
-
-.sponsor{
-  padding: 0 10px 0;
+footer a, footer a:visited, footer a:hover {
+  color: #380000;
+  text-decoration: underline;
 }
 
 .icon {
