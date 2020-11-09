@@ -1,4 +1,4 @@
-fetch("partials/_header.html")
+fetch("partials/header.html")
 .then(response => {
   return response.text();
 })
@@ -6,7 +6,7 @@ fetch("partials/_header.html")
   document.querySelector("#header").innerHTML = data;
 });
 
-fetch("partials/_rubysummitbr.html")
+fetch("partials/rubysummitbr.html")
 .then(response => {
   return response.text()
 })
@@ -14,7 +14,7 @@ fetch("partials/_rubysummitbr.html")
   document.querySelector("#rubysummitbr").innerHTML = data;
 });
 
-fetch("partials/_speakers.html")
+fetch("partials/speakers.html")
 .then(response => {
   return response.text()
 })
@@ -22,7 +22,7 @@ fetch("partials/_speakers.html")
   document.querySelector("#speakers").innerHTML = data;
 });
 
-fetch("partials/_schedule.html")
+fetch("partials/schedule.html")
 .then(response => {
   return response.text()
 })
@@ -30,7 +30,7 @@ fetch("partials/_schedule.html")
   document.querySelector("#schedule").innerHTML = data;
 });
 
-fetch("partials/_sponsors.html")
+fetch("partials/sponsors.html")
 .then(response => {
   return response.text()
 })
@@ -38,7 +38,7 @@ fetch("partials/_sponsors.html")
   document.querySelector("#sponsors").innerHTML = data;
 });
 
-fetch("partials/_footer.html")
+fetch("partials/footer.html")
 .then(response => {
   return response.text();
 })
