@@ -56,9 +56,9 @@
       },
       {
         "hour": "18:30",
-        "title": "Comunidade Ruby",
-        "name": "",
-        "description": "Talk da Comunidade Ruby"
+        "title": "Indo um pouco além no desenvolvimento de APIs Rest",
+        "name": "Lucas Caponi",
+        "description": "Utilizando query params e a especificação JSON-API (dentro disso entram questões como filtros, paginação, ordenação, relacionamentos, escolha de recursos e content negociation);  <br> Melhorando a visualização dos dados com Serializers; <br> Query Params vs GraphQL; <br> Estratégias de Versionamento de APIs; <br> Limitando requisicões (Throttling e Quota); <br> Gestão de custos em APIs. <br> Cacheando APIs?.<br> APIs públicas vs APIs privadas. <br> O que são Web hooks e como podem me ajudar? <br> Conhecendo o Swagger <br> API Gateway"
       },
       {
         "hour": "19:15",
@@ -95,9 +95,9 @@
       },
       {
         "hour": "14:40",
-        "title": "Comunidade Ruby",
-        "name": "",
-        "description": "Talk da Comunidade Ruby"
+        "title": "Caches Fantásticas e Onde Habitam",
+        "name": "Lívia Almeida",
+        "description": "Uma das formas de aumentar a performance de uma aplicação é utilizando caching e Rails provê muitas funcionalidades que facilitam o uso de cache no sistema. Nessa palestra serão apresentados conceitos de caching, as opções fornecidas pelo framework e também sobre os problemas que podem acontecer, com o exemplo de um caso real que aconteceu na Saraiva Educação."
       },
       {
         "hour": "15:25",
@@ -118,9 +118,9 @@
       },
       {
         "hour": "17:00",
-        "title": "Comunidade Ruby",
-        "name": "",
-        "description": "Talk da Comunidade Ruby"
+        "title": "A superficialidade da diversidade e seus perigos na TI",
+        "name": "Marina Joranhezon",
+        "description": "Comentar sobre os números que permeiam esse tema de \"diversidade\". Mas o principal ponto seria criticar essa nossa abordagem de diversidade na TI, que utiliza um termo genérico pra tentar encaixar todas as minorias nele, acabando por apagar as peculiaridades de cada um desses grupos. Além disso, falar sobre como isso impacta a TI e acaba por criar produtos racistas, machistas, transfóbicos, capacitistas, etc."
       },
       {
         "hour": "17:45",
@@ -129,9 +129,9 @@
       },
       {
         "hour": "18:30",
-        "title": "Comunidade Ruby",
-        "name": "",
-        "description": "Talk da Comunidade Ruby"
+        "title": "Rails Upgrade: como atualizamos uma aplicação gigante utilizando a estratégia de dual boot",
+        "name": "Cleiviane Costa",
+        "description": "Sabemos a importancia de manter nossos sistemas sempre nas ultimas versoes (novas funcionalidades, coreções de falhas de segurança, melhoria de performance, etc), mas fazer o upgrade de uma aplicação Rails nem sempre é uma tarefa fácil.<br> Nesta palestra irei falar sobre minha experiencia trabalhando no upgrade de uma aplicação gigantesca e quais o desafios encontrados pela equipe."
       },
       {
         "hour": "19:15",
