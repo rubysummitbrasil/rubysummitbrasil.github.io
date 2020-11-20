@@ -36,7 +36,7 @@ fetch("data/schedule.json")
 })
 .then(schedule => {
   schedule.map(track => {
-    const trackDay = document.querySelector(`.track[data-day="${track.day}"]`)
+    const trackDay = document.querySelector('.track[data-day="${track.day}"]')
 
     const table = trackDay.querySelector('tbody')
     track.talks.forEach(talk => {
