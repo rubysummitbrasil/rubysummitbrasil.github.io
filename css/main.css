@@ -83,6 +83,7 @@
 
 .speakers {
   display: grid;
+  display: none;
   grid-template-columns: repeat(2, minmax(250px, 300px));
   padding: 5px;
   margin: 0 100px;
@@ -110,6 +111,7 @@
 }
 
 .sponsors-title, .speakers-title {
+  display: none;
   text-align: center;
   /* max-width: 1200px;
   margin: 0 100px; */
