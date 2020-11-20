@@ -1,3 +1,45 @@
+const RubySummit = {
+  renderSchedule: function() {
+    fetch("data/schedule.json")
+    .then(response => {
+      return response.json()
+    })
+    .then(schedule => {
+      schedule.map(track => {
+        const trackDay = document.querySelector(`.track[data-day="${track.day}"]`)
+
+        const table = trackDay.querySelector('tbody')
+        track.talks.forEach(talk => {
+          name = talk.name ? `<br /> ${talk.name}` : ''
+
+          table.innerHTML +=
+            `
+        <tr class="talk-info">
+        <td>
+          <span title="${talk.hour}"><strong>${talk.hour}</strong></span>
+        </td>
+        <td>
+          <span class="title" title="${talk.title}"><strong>${talk.title}</strong></span>
+          <span class="speaker-name" title="${name}">${name}</span>
+        </td>
+      </tr>
+      `
+          if(talk.description) {
+            table.innerHTML +=
+              `
+        <tr class="talk-description">
+          <td colspan="2">
+            <span class="description" title="${talk.description}">${talk.description}</span>
+          </td>
+        </tr>
+        `
+          }
+        })
+      })
+    })
+  }
+}
+
 fetch("partials/header.html")
 .then(response => {
   return response.text();
@@ -28,45 +70,9 @@ fetch("partials/schedule.html")
 })
 .then(data => {
   document.querySelector("#schedule").innerHTML = data;
+
+  RubySummit.renderSchedule();
 });
-
-fetch("data/schedule.json")
-.then(response => {
-  return response.json()
-})
-.then(schedule => {
-  schedule.map(track => {
-    const trackDay = document.querySelector('.track[data-day="${track.day}"]')
-
-    const table = trackDay.querySelector('tbody')
-    track.talks.forEach(talk => {
-      name = talk.name ? `<br /> ${talk.name}` : ''
-
-      table.innerHTML +=
-        `
-          <tr class="talk-info">
-          <td>
-            <span title="${talk.hour}"><strong>${talk.hour}</strong></span>
-          </td>
-          <td>
-            <span class="title" title="${talk.title}"><strong>${talk.title}</strong></span>
-            <span class="speaker-name" title="${name}">${name}</span>
-          </td>
-        </tr>
-        `
-      if(talk.description) {
-        table.innerHTML +=
-          `
-          <tr class="talk-description">
-            <td colspan="2">
-              <span class="description" title="${talk.description}">${talk.description}</span>
-            </td>
-          </tr>
-          `
-      }
-    })
-  })
-})
 
 fetch("partials/sponsors.html")
 .then(response => {
