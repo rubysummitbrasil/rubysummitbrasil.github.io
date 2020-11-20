@@ -38,13 +38,14 @@
 .schedule {
   padding: 5px 0 30px;
   min-height: 200px;
-  max-width: 800px;
+  max-width: calc(85% - 10px);
   margin: 0 auto;
   text-align: center;
 }
 
 .schedule table {
-  width: 100%;
+    width: 100%;
+    white-space: normal;
 }
 
 .schedule img {
@@ -54,12 +55,30 @@
 
 .schedule .days {
   display: flex;
-  display: none;
   justify-content: space-around;
 }
 .schedule .track {
   flex-grow: 1;
   max-width: calc(50% - 20px);
+}
+.schedule .track .talk-info {
+  color: #FFF;
+  background: #a20000;
+}
+.schedule .track .talk-description {
+  text-align: left;
+  line-height: 1.8;
+  background: #e9e8ea;
+}
+
+.schedule .track .talk-info span {
+  padding: 5px;
+}
+
+.schedule .track .talk-description td {
+  border-top: 5px solid transparent;
+  border-left: 10px solid transparent;
+  border-right: 5px solid transparent;
 }
 
 .speakers {
@@ -103,6 +122,10 @@
 }
 
 @media only screen and (max-width: 600px) {
+  .header .container nav ul {
+    flex-wrap: nowrap;
+  }
+
   .main-container {
     display: block;
     margin: auto 0px;
@@ -112,8 +135,19 @@
     display: block;
   }
 
-
   .speaker img {
     max-width: 9em;
+  }
+
+  .schedule .track {
+    max-width: unset;
+  }
+
+  .schedule table {
+      table-layout: fixed;
+  }
+
+  .schedule .days {
+    display: block;
   }
 }

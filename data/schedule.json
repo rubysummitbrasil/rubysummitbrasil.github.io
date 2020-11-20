@@ -1,0 +1,143 @@
+[
+  {
+    "day": "friday",
+    "talks": [
+      {
+        "hour": "13:00",
+        "name": "",
+        "title": "Abertura"
+      },
+      {
+        "hour": "13:10",
+        "name": "Maurício Szabo",
+        "title": "Ruby, Microservice, e Hardcore PostgreSQL",
+        "description": "É uma abordagem diferente do que a maioria das pessoas usa ao iniciar um projeto Ruby, além do resultado ter sido imensamente positivo: brincávamos que nosso servidor de aplicações seria um Raspbery PI, por exemplo. Além disso, há aprendizados interessantes que quero compartilhar do que acontece quando decidimos sair do mundo Rails."
+      },
+      {
+        "hour": "13:55",
+        "name": "Brenno Costa",
+        "title": "Eventide - Sistemas Autônomos Baseados em Eventos",
+        "description": "A comunidade Ruby se beneficiaria muito com a divulgação desse framework (Eventide) e com todos os conceitos e filosofias adotados com ele, que trazem uma alternativa à abordagem do Rails e suas limitações intrínsecas"
+      },
+      {
+        "hour": "14:40",
+        "name": "João Paulo",
+        "title": "Feature toggle: release e deploy são a mesma coisa?",
+        "description": "Normalmente sempre há um atrito entre o time de desenvolvedores e o time de produto(ou CS), onde os devs querem fazer deploys rápidos e com bastante frequência, e o time que lida com o cliente quer controlar as novidades que aparecem para os clientes, controlar a velocidade com que é feito release de mudanças no sistema, controlando assim o impacto que o produto tem nos clientes. Assumi a liderança e o papel de CTO da empresa no momento em que estávamos exatamente com esse conflito, onde o time de CS e o time de engenharia tinham bastante atritos, onde deploy era sinônimo de problemas, de clientes confusos, de clientes ligando com dúvidas sobre as novidades, de bugs, etc. Ao longo do ano passado, saímos de um modelo de trabalhar com branches de development, staging e production e pouquíssimos deploys, uma frequência de menos de um a cada 15 dias, para terminar o ano com mais de um deploy por dia, com release completamente controlado pelo time de produto e CS e como algo completamente independente do deploy, com métricas de release sendo medidas, e com muito menos atrito entre os times de engenharia e os times de cliente, com deploy e release agora sendo vistos como algo positivo. Muito dessas melhorias e visões vieram da leitura que fiz do livro Accelerate Software Performing Technology Organizations, e pretendo contar na prática como foi toda essa experiência da mudança, tanto do ponto de vista da gestão, o que precisei mudar, como foi com os outros gestores das outras áreas, como do ponto de vista do nosso cliente e dos times que lidão diretamente com ele, como do ponto de vista dos desenvolvedores."
+      },
+      {
+        "hour": "15:25",
+        "name": "",
+        "title": "Sorteio"
+      },
+      {
+        "hour": "15:30",
+        "title": "Comunidade Ruby",
+        "name": "",
+        "description": "Talk da Comunidade Ruby"
+      },
+      {
+        "hour": "16:15",
+        "name": "Izabela Cardoso, Inajara Leppa, Estevão Moraes de Andrade",
+        "title": "Mesa Redonda - Testes",
+        "description": "Nossa comunidade trocando ideias sobre Testes, perguntas são bem-vindas"
+      },
+      {
+        "hour": "17:00",
+        "name": "Camila Campos",
+        "title": "Desmacarronando código com dry-rb",
+        "description": "Já trabalhou com aquele código legado, super macarronado, que é pior que aqueles postes de fio que estão prestes a dar vários curtos? Pois bem, nessa palestra apresentarei como saímos de um código tão espaguete que era quase impossível de mexer para uma nova versão em que conseguíamos incluir funcionalidades em apenas algumas horas. Usando o dry-transactions, um componente do dry-rb, melhoramos nosso código (sem remover a complexidade), passamos a ter mais domínio do contexto e, de quebra, acabamos mais motivados"
+      },
+      {
+        "hour": "17:45",
+        "name": "Paula Arantes",
+        "title": "Como ensinar iniciantes em programação - e por que isso importa",
+        "description": "Nessa palestra eu vou falar da importância de saber ensinar, como isso impacta na sua carreira e na das outras pessoas. Também vou ensinar técnicas e dar dicas práticas do que fazer e não fazer quando estiver ensinando pessoas mais iniciantes, baseadas no meu aprendizado como instrutora da Labenu, uma escola de programação focada em empregabilidade que acolhe pessoas de diversas áreas."
+      },
+      {
+        "hour": "18:30",
+        "title": "Comunidade Ruby",
+        "name": "",
+        "description": "Talk da Comunidade Ruby"
+      },
+      {
+        "hour": "19:15",
+        "name": "Weverton Timoteo",
+        "title": "Ruby 3 e Análise Estática: O que esperar e o que significa para o nosso código",
+        "description": "O Ruby tem se reinventado para atender as demandas da comunidade e continuar relevante nos últimos anos. O que a comunidade tanto espera é o Ruby 3? Afetando não só o código que escrevemos mas também a performance das nossas apps. Além de melhorias em consumo de CPU/memória e otimizações em concorrência, teremos também o suporte para tipagem estática. O que isso significa para o nosso código e como a qualidade será afetada? Quais as métricas mais importantes para medir a qualidade de código do projeto que você trabalha e como começar a medir em um projeto Ruby?"
+      },
+      {
+        "hour": "20:00",
+        "name": "",
+        "title": "Sorteio & Até Amanhã"
+      }
+    ]
+  },
+  {
+    "day": "saturday",
+    "talks": [
+      {
+        "hour": "13:00",
+        "name": "",
+        "title": "Abertura"
+      },
+      {
+        "hour": "13:10",
+        "name": "Caio Salgado",
+        "title": "Olá Ractors! Ruby 3 rodando código em paralelo",
+        "description": "Apresentarei os modelos de programação concorrente que o ruby possuí, tanto o mri, quanto jruby e truffleruby. Vantagens, desvantagens e diferenças tudo com exemplos de código, para depois mostrar os Ractors.  Ractor é uma nova abstração para concorrência que o ruby 3 vai trazer. Pretendo, a partir de exemplos, mostrar como funcionam e como possibilitam rodar código ruby em paralelo de maneira simples, e trocando dados entre cada thread."
+      },
+      {
+        "hour": "13:55",
+        "name": "Fabrício Buzeto",
+        "title": "Construindo o Stonehenge usando a lei de Gall",
+        "description": "A lei de Gall diz que todo sistema complexo evolui de sistemas mais simples que funcionaram. Deixe-me apresentar uma abordagem de passos pequenos e seguros para começar pequeno e crescer em complexidade junto com o seu domínio.  Mostrando as pistas, técnicas e ferramentas que podem ajudar neste caminho. Usando como base uma história real, que cresceu de 50 usuários para mais de 1 milhão em pouco tempo."
+      },
+      {
+        "hour": "14:40",
+        "title": "Comunidade Ruby",
+        "name": "",
+        "description": "Talk da Comunidade Ruby"
+      },
+      {
+        "hour": "15:25",
+        "name": "",
+        "title": "Sorteio"
+      },
+      {
+        "hour": "15:30",
+        "name": "Diego Moreira",
+        "title": "Fazendo Música com Sonic Pi",
+        "description": "Sonic Pi é um sintetizador onde você programa a música.  Ele é simples o suficiente para ser usado tanto para ensinar programação quanto para ensinar música. E não é necessário nenhum conhecimento prévio em nenhum dos dois assuntos para começar a mexer com ele, basta instalar e começar a seguir o tutorial que vem junto.  Mas muito mais do que só uma ferramenta de ensino, o Sonic Pi é um instrumento músical. Ou muitos instrumentos musicais, depende de como você quer fazer. O Sonic Pi vem com diversos sintetizadores e samples para você fazer todo tipo de som que vier na sua cabeça. E foi feito para performance ao vivo. Basicamente, como um maestro ou DJ do futuro, você abre seu computador, liga na caixa de som e começa a compor ao vivo a sua música, as suas batidas. E bota o povo pra dançar! Inclusive existem eventos exatamente pra isso: são as Algoraves. Essa palestra será totalmente mão na massa e vou mostrar como começar a fazer música com Sonic Pi. Vai ter muito som! Vou mostrar como tocar as primeiras notas e acordes, como usar escalas (você não precisa saber como funciona pra usar!) e outros conceitos de música, como usar mexer com samples e como começar a brincar de compor ao vivo! Além de passar por tópicos mais avançados como integração com controladores midi e sintetizadores externos."
+      },
+      {
+        "hour": "16:15",
+        "name": "Alda Rocha, Diego Rossini Vieira, Philip Sampaio, Carolina Brito",
+        "title": "Mesa Redonda - Comunidade",
+        "description": "Papo de Comunidade"
+      },
+      {
+        "hour": "17:00",
+        "title": "Comunidade Ruby",
+        "name": "",
+        "description": "Talk da Comunidade Ruby"
+      },
+      {
+        "hour": "17:45",
+        "name": "Radamés Roriz",
+        "title": "Escalando o ambiente de desenvolvimento com cli em ruby", "description": "Na revelo tivemos rápido crescimento em um curto período de tempo, tornando processos que eram simples em tarefas que se estendiam por dias completamente improdutivos. Criar uma ferramenta que permita abstrair a arquitetura de serviços foi fundamental para aumentar o engajamento e a produtividade dos times.  Uma ferramenta feita em Ruby e com abstrações do docker, permitiu que todos os times tivessem o mesmo ambiente de desenvolvimento, facilitando o onboarding. A ferramenta passou por evoluções como setup do ambiente, ambiente seletivo, comunicação entre serviços de dentro e de fora do docker, autocomplete e auto update, evoluções que ajudam outros times a se preocupar menos com processo e mais com a evolução da plataforma."
+      },
+      {
+        "hour": "18:30",
+        "title": "Comunidade Ruby",
+        "name": "",
+        "description": "Talk da Comunidade Ruby"
+      },
+      {
+        "hour": "19:15",
+        "name": "",
+        "title": "Sorteio & Encerramento"
+      }
+    ]
+  }
+]
