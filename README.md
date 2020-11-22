@@ -2,7 +2,7 @@
 
 Olá!
 
-Esse é o respositório do site do evento e você pode acessá-lo em [rubysummitbrasil.github.io](https://rubysummitbrasil.github.io/)!
+Esse é o respositório do site do evento e você pode acessá-lo em [ruby.com.br](https://ruby.com.br/)!
 
 ## Contribuindo
 
