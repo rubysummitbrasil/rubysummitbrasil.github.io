@@ -32,13 +32,13 @@
       },
       {
         "hour": "15:30",
-        "title": "Comunidade Ruby",
-        "name": "",
-        "description": "Talk da Comunidade Ruby"
+        "title": "Izabela Cardoso",
+        "name": "Testando os testes: Como saber se tenho testes de qualidade utilizando testes de mutação",
+        "description": "Como e por quê executar testes de mutação em uma aplicação. Os testes de mutação inserem alterações no código e verificam se os testes passam a falhar, se o código é modificado e todos os testes continuam passando, isso pode indicar uma má qualidade ou falta de testes. Para exemplificar como implementar os testes de mutação, será usada a ferramenta mutant."
       },
       {
         "hour": "16:15",
-        "name": "Izabela Cardoso, Inajara Leppa, Estevão Moraes de Andrade",
+        "name": "Philippe Hardardt, Izabela Cardoso, Inajara Leppa, Estevão Moraes de Andrade",
         "title": "Mesa Redonda - Testes",
         "description": "Nossa comunidade trocando ideias sobre Testes, perguntas são bem-vindas"
       },
@@ -112,7 +112,7 @@
       },
       {
         "hour": "16:15",
-        "name": "Alda Rocha, Philip Sampaio, Carolina Brito",
+        "name": "Alda Rocha, Philip Sampaio, Carolina Brito, Carolina Karklis",
         "title": "Mesa Redonda - Comunidade",
         "description": "Papo de Comunidade"
       },
