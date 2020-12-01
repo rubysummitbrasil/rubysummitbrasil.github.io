@@ -11,19 +11,19 @@
         "hour": "13:10",
         "name": "Maurício Szabo",
         "title": "Ruby, Microservice, e Hardcore PostgreSQL",
-        "description": "É uma abordagem diferente do que a maioria das pessoas usa ao iniciar um projeto Ruby, além do resultado ter sido imensamente positivo: brincávamos que nosso servidor de aplicações seria um Raspbery PI, por exemplo. Além disso, há aprendizados interessantes que quero compartilhar do que acontece quando decidimos sair do mundo Rails."
+        "description": "Apresentarei uma estrutura de projetos bem diferente do tradicional no mundo Ruby: sem Rails, sem ActiveRecord, sem a abordagem tradicional dos ORMs e atendendo mensageria (via SQS) que definimos na BioRitmo, com o intuito de adquirir um imenso controle de consistencia de dados, performance, e uso de features modernas do PostgreSQL (como, por exemplo, upsert e JSONB)"
       },
       {
         "hour": "13:55",
         "name": "Brenno Costa",
         "title": "Eventide - Sistemas Autônomos Baseados em Eventos",
-        "description": "A comunidade Ruby se beneficiaria muito com a divulgação desse framework (Eventide) e com todos os conceitos e filosofias adotados com ele, que trazem uma alternativa à abordagem do Rails e suas limitações intrínsecas"
+        "description": "Introdução ao Eventide, framework para a construção de serviços autônomos baseados em eventos, em cima da minha experiência lidando com essa mudança de paradigma focada em processos e não em entidades."
       },
       {
         "hour": "14:40",
         "name": "João Paulo",
         "title": "Feature toggle: release e deploy são a mesma coisa?",
-        "description": "Normalmente sempre há um atrito entre o time de desenvolvedores e o time de produto(ou CS), onde os devs querem fazer deploys rápidos e com bastante frequência, e o time que lida com o cliente quer controlar as novidades que aparecem para os clientes, controlar a velocidade com que é feito release de mudanças no sistema, controlando assim o impacto que o produto tem nos clientes. Assumi a liderança e o papel de CTO da empresa no momento em que estávamos exatamente com esse conflito, onde o time de CS e o time de engenharia tinham bastante atritos, onde deploy era sinônimo de problemas, de clientes confusos, de clientes ligando com dúvidas sobre as novidades, de bugs, etc. Ao longo do ano passado, saímos de um modelo de trabalhar com branches de development, staging e production e pouquíssimos deploys, uma frequência de menos de um a cada 15 dias, para terminar o ano com mais de um deploy por dia, com release completamente controlado pelo time de produto e CS e como algo completamente independente do deploy, com métricas de release sendo medidas, e com muito menos atrito entre os times de engenharia e os times de cliente, com deploy e release agora sendo vistos como algo positivo. Muito dessas melhorias e visões vieram da leitura que fiz do livro Accelerate Software Performing Technology Organizations, e pretendo contar na prática como foi toda essa experiência da mudança, tanto do ponto de vista da gestão, o que precisei mudar, como foi com os outros gestores das outras áreas, como do ponto de vista do nosso cliente e dos times que lidão diretamente com ele, como do ponto de vista dos desenvolvedores."
+        "description": "No final de 2018, passamos por mudança brusca na Zygo no processo de desenvolvimento e release, matamos as branches staging e development e passamos a trabalhar somente com a branch master e feature branches que viviam por pouco tempo e eram mergeadas na master rapidamente. Depois de mais de um ano dessa mudança, conseguimos melhorar bastante nosso processo de entrega de valor e novidades para nossos clientes, aumentando nossa frequência de deploy e diminuindo o tempo de entrega também. Mudamos nosso dia-a-dia de desenvolvimento e como impactamos o cliente.  E é sobre esse processo que falarei um pouco, contando como foi nossa experiência em utilizar a gem chamada flipper para implementar feature toggle em nosso projeto ruby on rails e  no dia a dia de desenvolvimento, quais impactos isso teve para nosso cliente, quais impactos teve no dia a dia do desenvolvedor, e como conseguimos com isso aumentar nossa frequência de deploy e separar totalmente o release do deploy, melhorando muito nossa forma de entregar funcionalidades novas. Pretendo mostrar também exemplos práticas do uso da gem flipper no código, como configurar e usar ela, fazendo release por porcentagem, por grupos, usuários específicos, entre outras opções."
       },
       {
         "hour": "15:25",
@@ -32,8 +32,8 @@
       },
       {
         "hour": "15:30",
-        "title": "Izabela Cardoso",
-        "name": "Testando os testes: Como saber se tenho testes de qualidade utilizando testes de mutação",
+        "name": "Izabela Cardoso",
+        "title": "Testando os testes: Como saber se tenho testes de qualidade utilizando testes de mutação",
         "description": "Como e por quê executar testes de mutação em uma aplicação. Os testes de mutação inserem alterações no código e verificam se os testes passam a falhar, se o código é modificado e todos os testes continuam passando, isso pode indicar uma má qualidade ou falta de testes. Para exemplificar como implementar os testes de mutação, será usada a ferramenta mutant."
       },
       {
@@ -125,7 +125,7 @@
       {
         "hour": "17:45",
         "name": "Radamés Roriz",
-        "title": "Escalando o ambiente de desenvolvimento com cli em ruby", "description": "Na revelo tivemos rápido crescimento em um curto período de tempo, tornando processos que eram simples em tarefas que se estendiam por dias completamente improdutivos. Criar uma ferramenta que permita abstrair a arquitetura de serviços foi fundamental para aumentar o engajamento e a produtividade dos times.  Uma ferramenta feita em Ruby e com abstrações do docker, permitiu que todos os times tivessem o mesmo ambiente de desenvolvimento, facilitando o onboarding. A ferramenta passou por evoluções como setup do ambiente, ambiente seletivo, comunicação entre serviços de dentro e de fora do docker, autocomplete e auto update, evoluções que ajudam outros times a se preocupar menos com processo e mais com a evolução da plataforma."
+        "title": "Escalando o ambiente de desenvolvimento com cli em ruby", "description": "Na Revelo tivemos rápido crescimento em um curto período de tempo, tornando processos que eram simples em tarefas que se estendiam por dias completamente improdutivos. Criar uma ferramenta que permita abstrair a arquitetura de serviços foi fundamental para aumentar o engajamento e a produtividade dos times.  Uma ferramenta feita em Ruby e com abstrações do docker, permitiu que todos os times tivessem o mesmo ambiente de desenvolvimento, facilitando o onboarding. A ferramenta passou por evoluções como setup do ambiente, ambiente seletivo, comunicação entre serviços de dentro e de fora do docker, autocomplete e auto update, evoluções que ajudam outros times a se preocupar menos com processo e mais com a evolução da plataforma."
       },
       {
         "hour": "18:30",
