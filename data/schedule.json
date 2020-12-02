@@ -11,7 +11,7 @@
         "hour": "13:10",
         "name": "Maurício Szabo",
         "title": "Ruby, Microservice, e Hardcore PostgreSQL",
-        "description": "Apresentarei uma estrutura de projetos bem diferente do tradicional no mundo Ruby: sem Rails, sem ActiveRecord, sem a abordagem tradicional dos ORMs e atendendo mensageria (via SQS) que definimos na BioRitmo, com o intuito de adquirir um imenso controle de consistencia de dados, performance, e uso de features modernas do PostgreSQL (como, por exemplo, upsert e JSONB)"
+        "description": "Apresentarei uma estrutura de projetos bem diferente do tradicional no mundo Ruby: sem Rails, sem ActiveRecord, sem a abordagem tradicional dos ORMs e atendendo mensageria (via SQS) que definimos na Bio Ritmo, com o intuito de adquirir um imenso controle de consistência de dados, performance, e uso de features modernas do PostgreSQL (como, por exemplo, upsert e JSONB)"
       },
       {
         "hour": "13:55",
@@ -23,7 +23,7 @@
         "hour": "14:40",
         "name": "João Paulo",
         "title": "Feature toggle: release e deploy são a mesma coisa?",
-        "description": "No final de 2018, passamos por mudança brusca na Zygo no processo de desenvolvimento e release, matamos as branches staging e development e passamos a trabalhar somente com a branch master e feature branches que viviam por pouco tempo e eram mergeadas na master rapidamente. Depois de mais de um ano dessa mudança, conseguimos melhorar bastante nosso processo de entrega de valor e novidades para nossos clientes, aumentando nossa frequência de deploy e diminuindo o tempo de entrega também. Mudamos nosso dia-a-dia de desenvolvimento e como impactamos o cliente.  E é sobre esse processo que falarei um pouco, contando como foi nossa experiência em utilizar a gem chamada flipper para implementar feature toggle em nosso projeto ruby on rails e  no dia a dia de desenvolvimento, quais impactos isso teve para nosso cliente, quais impactos teve no dia a dia do desenvolvedor, e como conseguimos com isso aumentar nossa frequência de deploy e separar totalmente o release do deploy, melhorando muito nossa forma de entregar funcionalidades novas. Pretendo mostrar também exemplos práticas do uso da gem flipper no código, como configurar e usar ela, fazendo release por porcentagem, por grupos, usuários específicos, entre outras opções."
+        "description": "No final de 2018, passamos por mudança brusca na Zygo no processo de desenvolvimento e release, matamos as branches staging e development e passamos a trabalhar somente com a branch master e feature branches que viviam por pouco tempo e eram mergeadas na master rapidamente. Depois de mais de um ano dessa mudança, conseguimos melhorar bastante nosso processo de entrega de valor e novidades para nossos clientes, aumentando nossa frequência de deploy e diminuindo o tempo de entrega também. Mudamos nosso dia-a-dia de desenvolvimento e impactamos o cliente.  E é sobre esse processo que falarei um pouco, contando como foi nossa experiência em utilizar a gem chamada flipper para implementar feature toggle em nosso projeto Ruby on Rails e no dia a dia de desenvolvimento, quais impactos isso teve para nosso cliente, quais impactos teve no dia a dia do desenvolvedor, e como conseguimos com isso aumentar nossa frequência de deploy e separar totalmente o release do deploy, melhorando muito nossa forma de entregar funcionalidades novas. Pretendo mostrar também exemplos práticos do uso da gem flipper no código, como configurar e usar ela, fazendo release por porcentagem, por grupos, usuários específicos, entre outras opções."
       },
       {
         "hour": "15:25",
@@ -34,7 +34,7 @@
         "hour": "15:30",
         "name": "Izabela Cardoso",
         "title": "Testando os testes: Como saber se tenho testes de qualidade utilizando testes de mutação",
-        "description": "Como e por quê executar testes de mutação em uma aplicação. Os testes de mutação inserem alterações no código e verificam se os testes passam a falhar, se o código é modificado e todos os testes continuam passando, isso pode indicar uma má qualidade ou falta de testes. Para exemplificar como implementar os testes de mutação, será usada a ferramenta mutant."
+        "description": "Como e por que executar testes de mutação em uma aplicação. Os testes de mutação inserem alterações no código e verificam se os testes passam a falhar, se o código é modificado e todos os testes continuam passando, isso pode indicar uma má qualidade ou falta de testes. Para exemplificar como implementar os testes de mutação, será usada a ferramenta mutant."
       },
       {
         "hour": "16:15",
@@ -58,7 +58,7 @@
         "hour": "18:30",
         "title": "Indo um pouco além no desenvolvimento de APIs Rest",
         "name": "Lucas Caponi",
-        "description": "Utilizando query params e a especificação JSON-API (dentro disso entram questões como filtros, paginação, ordenação, relacionamentos, escolha de recursos e content negociation);  <br> Melhorando a visualização dos dados com Serializers; <br> Query Params vs GraphQL; <br> Estratégias de Versionamento de APIs; <br> Limitando requisicões (Throttling e Quota); <br> Gestão de custos em APIs. <br> Cacheando APIs?.<br> APIs públicas vs APIs privadas. <br> O que são Web hooks e como podem me ajudar? <br> Conhecendo o Swagger <br> API Gateway"
+        "description": "Utilizando query params e a especificação JSON-API (dentro disso entram questões como filtros, paginação, ordenação, relacionamentos, escolha de recursos e content negociation);  <br> Melhorando a visualização dos dados com Serializers; <br> Query Params vs GraphQL; <br> Estratégias de Versionamento de APIs; <br> Limitando requisicões (Throttling e Quota); <br> Gestão de custos em APIs; <br> Cacheando APIs?;<br> APIs públicas vs APIs privadas; <br> O que são Web hooks e como podem me ajudar?;<br> Conhecendo o Swagger; <br> API Gateway"
       },
       {
         "hour": "19:15",
@@ -85,13 +85,13 @@
         "hour": "13:10",
         "name": "Caio Salgado",
         "title": "Olá Ractors! Ruby 3 rodando código em paralelo",
-        "description": "Apresentarei os modelos de programação concorrente que o ruby possuí, tanto o mri, quanto jruby e truffleruby. Vantagens, desvantagens e diferenças tudo com exemplos de código, para depois mostrar os Ractors.  Ractor é uma nova abstração para concorrência que o ruby 3 vai trazer. Pretendo, a partir de exemplos, mostrar como funcionam e como possibilitam rodar código ruby em paralelo de maneira simples, e trocando dados entre cada thread."
+        "description": "Apresentarei os modelos de programação concorrente que o Ruby possui, tanto o MRI, quanto JRuby e TruffleRuby. Vantagens, desvantagens e diferenças; tudo com exemplos de código, para depois mostrar os Ractors.  Ractor é uma nova abstração para concorrência que o Ruby 3 vai trazer. Pretendo, a partir de exemplos, mostrar como funcionam e como possibilitam rodar código Ruby em paralelo de maneira simples, e trocando dados entre cada thread."
       },
       {
         "hour": "13:55",
         "name": "Fabrício Buzeto",
-        "title": "Construindo o Stonehenge usando a lei de Gall",
-        "description": "A lei de Gall diz que todo sistema complexo evolui de sistemas mais simples que funcionaram. Deixe-me apresentar uma abordagem de passos pequenos e seguros para começar pequeno e crescer em complexidade junto com o seu domínio.  Mostrando as pistas, técnicas e ferramentas que podem ajudar neste caminho. Usando como base uma história real, que cresceu de 50 usuários para mais de 1 milhão em pouco tempo."
+        "title": "Construindo o Stonehenge usando a Lei de Gall",
+        "description": "A Lei de Gall diz que todo sistema complexo evolui de sistemas mais simples que funcionaram. Deixe-me apresentar uma abordagem de passos pequenos e seguros para começar pequeno e crescer em complexidade junto com o seu domínio, mostrando as pistas, técnicas e ferramentas que podem ajudar neste caminho, usando como base uma história real, que cresceu de 50 usuários para mais de 1 milhão em pouco tempo."
       },
       {
         "hour": "14:40",
@@ -108,7 +108,7 @@
         "hour": "15:30",
         "name": "Diego Moreira",
         "title": "Fazendo Música com Sonic Pi",
-        "description": "Sonic Pi é um sintetizador onde você programa a música.  Ele é simples o suficiente para ser usado tanto para ensinar programação quanto para ensinar música. E não é necessário nenhum conhecimento prévio em nenhum dos dois assuntos para começar a mexer com ele, basta instalar e começar a seguir o tutorial que vem junto.  Mas muito mais do que só uma ferramenta de ensino, o Sonic Pi é um instrumento músical. Ou muitos instrumentos musicais, depende de como você quer fazer. O Sonic Pi vem com diversos sintetizadores e samples para você fazer todo tipo de som que vier na sua cabeça. E foi feito para performance ao vivo. Basicamente, como um maestro ou DJ do futuro, você abre seu computador, liga na caixa de som e começa a compor ao vivo a sua música, as suas batidas. E bota o povo pra dançar! Inclusive existem eventos exatamente pra isso: são as Algoraves. Essa palestra será totalmente mão na massa e vou mostrar como começar a fazer música com Sonic Pi. Vai ter muito som! Vou mostrar como tocar as primeiras notas e acordes, como usar escalas (você não precisa saber como funciona pra usar!) e outros conceitos de música, como usar mexer com samples e como começar a brincar de compor ao vivo! Além de passar por tópicos mais avançados como integração com controladores midi e sintetizadores externos."
+        "description": "Sonic Pi é um sintetizador onde você programa a música. Ele é simples o suficiente para ser usado tanto para ensinar programação quanto para ensinar música. E não é necessário nenhum conhecimento prévio em nenhum dos dois assuntos para começar a mexer com ele, basta instalar e começar a seguir o tutorial que vem junto.  Mas muito mais do que só uma ferramenta de ensino, o Sonic Pi é um instrumento musical. Ou muitos instrumentos musicais, depende de como você quer fazer. O Sonic Pi vem com diversos sintetizadores e samples para você fazer todo tipo de som que vier na sua cabeça. E foi feito para performance ao vivo. Basicamente, como um maestro ou DJ do futuro, você abre seu computador, liga na caixa de som e começa a compor ao vivo a sua música, as suas batidas. E bota o povo pra dançar! Inclusive existem eventos exatamente pra isso: são as Algoraves. Essa palestra será totalmente mão na massa e vou mostrar como começar a fazer música com Sonic Pi. Vai ter muito som! Vou mostrar como tocar as primeiras notas e acordes, como usar escalas (você não precisa saber como funciona pra usar!) e outros conceitos de música, como usar mexer com samples e como começar a brincar de compor ao vivo! Além de passar por tópicos mais avançados como integração com controladores MIDI e sintetizadores externos."
       },
       {
         "hour": "16:15",
@@ -125,13 +125,13 @@
       {
         "hour": "17:45",
         "name": "Radamés Roriz",
-        "title": "Escalando o ambiente de desenvolvimento com cli em ruby", "description": "Na Revelo tivemos rápido crescimento em um curto período de tempo, tornando processos que eram simples em tarefas que se estendiam por dias completamente improdutivos. Criar uma ferramenta que permita abstrair a arquitetura de serviços foi fundamental para aumentar o engajamento e a produtividade dos times.  Uma ferramenta feita em Ruby e com abstrações do docker, permitiu que todos os times tivessem o mesmo ambiente de desenvolvimento, facilitando o onboarding. A ferramenta passou por evoluções como setup do ambiente, ambiente seletivo, comunicação entre serviços de dentro e de fora do docker, autocomplete e auto update, evoluções que ajudam outros times a se preocupar menos com processo e mais com a evolução da plataforma."
+        "title": "Escalando o ambiente de desenvolvimento com CLI em Ruby", "description": "Na Revelo tivemos rápido crescimento em um curto período de tempo, tornando processos que eram simples em tarefas que se estendiam por dias completamente improdutivos. Criar uma ferramenta que permita abstrair a arquitetura de serviços foi fundamental para aumentar o engajamento e a produtividade dos times.  Uma ferramenta feita em Ruby e com abstrações do Docker permitiu que todos os times tivessem o mesmo ambiente de desenvolvimento, facilitando o onboarding. A ferramenta passou por evoluções como setup do ambiente, ambiente seletivo, comunicação entre serviços de dentro e de fora do Docker, autocomplete e auto update, evoluções que ajudam outros times a se preocupar menos com processo e mais com a evolução da plataforma."
       },
       {
         "hour": "18:30",
         "title": "Rails Upgrade: como atualizamos uma aplicação gigante utilizando a estratégia de dual boot",
         "name": "Cleiviane Costa",
-        "description": "Sabemos a importancia de manter nossos sistemas sempre nas ultimas versoes (novas funcionalidades, coreções de falhas de segurança, melhoria de performance, etc), mas fazer o upgrade de uma aplicação Rails nem sempre é uma tarefa fácil.<br> Nesta palestra irei falar sobre minha experiencia trabalhando no upgrade de uma aplicação gigantesca e quais o desafios encontrados pela equipe."
+        "description": "Sabemos a importância de manter nossos sistemas sempre nas últimas versões (novas funcionalidades, correções de falhas de segurança, melhoria de performance, etc), mas fazer o upgrade de uma aplicação Rails nem sempre é uma tarefa fácil.<br> Nesta palestra irei falar sobre minha experiência trabalhando no upgrade de uma aplicação gigantesca e quais o desafios encontrados pela equipe."
       },
       {
         "hour": "19:15",
