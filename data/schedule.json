@@ -4,71 +4,88 @@
     "talks": [
       {
         "hour": "13:00",
-        "name": "",
+        "name": [""],
+        "socialMedia": [""],
         "title": "Abertura"
       },
       {
         "hour": "13:10",
-        "name": "Maurício Szabo",
+        "name": ["Maurício Szabo"],
+        "socialMedia": ["https://twitter.com/mauricio_szabo"],
         "title": "Ruby, Microservice, e Hardcore PostgreSQL",
         "description": "Apresentarei uma estrutura de projetos bem diferente do tradicional no mundo Ruby: sem Rails, sem ActiveRecord, sem a abordagem tradicional dos ORMs e atendendo mensageria (via SQS) que definimos na Bio Ritmo, com o intuito de adquirir um imenso controle de consistência de dados, performance, e uso de features modernas do PostgreSQL (como, por exemplo, upsert e JSONB)"
       },
       {
         "hour": "13:55",
-        "name": "Brenno Costa",
+        "name": ["Brenno Costa"],
+        "socialMedia": ["https://twitter.com/brennovich"],
         "title": "Eventide - Sistemas Autônomos Baseados em Eventos",
         "description": "Introdução ao Eventide, framework para a construção de serviços autônomos baseados em eventos, em cima da minha experiência lidando com essa mudança de paradigma focada em processos e não em entidades."
       },
       {
         "hour": "14:40",
-        "name": "João Paulo",
+        "name": ["João Paulo"],
+        "socialMedia": ["https://twitter.com/jplethier"],
         "title": "Feature toggle: release e deploy são a mesma coisa?",
         "description": "No final de 2018, passamos por mudança brusca na Zygo no processo de desenvolvimento e release, matamos as branches staging e development e passamos a trabalhar somente com a branch master e feature branches que viviam por pouco tempo e eram mergeadas na master rapidamente. Depois de mais de um ano dessa mudança, conseguimos melhorar bastante nosso processo de entrega de valor e novidades para nossos clientes, aumentando nossa frequência de deploy e diminuindo o tempo de entrega também. Mudamos nosso dia-a-dia de desenvolvimento e impactamos o cliente.  E é sobre esse processo que falarei um pouco, contando como foi nossa experiência em utilizar a gem chamada flipper para implementar feature toggle em nosso projeto Ruby on Rails e no dia a dia de desenvolvimento, quais impactos isso teve para nosso cliente, quais impactos teve no dia a dia do desenvolvedor, e como conseguimos com isso aumentar nossa frequência de deploy e separar totalmente o release do deploy, melhorando muito nossa forma de entregar funcionalidades novas. Pretendo mostrar também exemplos práticos do uso da gem flipper no código, como configurar e usar ela, fazendo release por porcentagem, por grupos, usuários específicos, entre outras opções."
       },
       {
         "hour": "15:25",
-        "name": "",
+        "name": [""],
+        "socialMedia": [""],
         "title": "Sorteio"
       },
       {
         "hour": "15:30",
-        "name": "Izabela Cardoso",
+        "name": ["Izabela Cardoso"],
+        "socialMedia": ["https://twitter.com/belaizacristina"],
         "title": "Testando os testes: Como saber se tenho testes de qualidade utilizando testes de mutação",
         "description": "Como e por que executar testes de mutação em uma aplicação. Os testes de mutação inserem alterações no código e verificam se os testes passam a falhar, se o código é modificado e todos os testes continuam passando, isso pode indicar uma má qualidade ou falta de testes. Para exemplificar como implementar os testes de mutação, será usada a ferramenta mutant."
       },
       {
         "hour": "16:15",
-        "name": "Philippe Hardardt, Izabela Cardoso, Inajara Leppa, Estevão Moraes de Andrade",
+        "name": ["Philippe Hardardt", "Izabela Cardoso", "Inajara Leppa", "Estevão Moraes de Andrade"],
+        "socialMedia": [
+          "https://www.linkedin.com/in/peagha",
+          "https://twitter.com/belaizacristina",
+          "https://twitter.com/inajara_",
+          "https://twitter.com/estevao_a"
+        ],
         "title": "Mesa Redonda - Testes",
-        "description": "Nossa comunidade trocando ideias sobre Testes, perguntas são bem-vindas"
+        "description": "Nossa comunidade trocando ideias sobre tudo relacionado a testes. Já prepare sua pergunta pra essa galera!"
       },
       {
         "hour": "17:00",
-        "name": "Camila Campos",
+        "name": ["Camila Campos"],
+        "socialMedia": ["https://twitter.com/camposmilaa"],
         "title": "Desmacarronando código com dry-rb",
         "description": "Já trabalhou com aquele código legado, super macarronado, que é pior que aqueles postes de fio que estão prestes a dar vários curtos? Pois bem, nessa palestra apresentarei como saímos de um código tão espaguete que era quase impossível de mexer para uma nova versão em que conseguíamos incluir funcionalidades em apenas algumas horas. Usando o dry-transactions, um componente do dry-rb, melhoramos nosso código (sem remover a complexidade), passamos a ter mais domínio do contexto e, de quebra, acabamos mais motivados"
       },
       {
         "hour": "17:45",
-        "name": "Paula Arantes",
+        "name": ["Paula Arantes"],
+        "socialMedia": ["https://www.linkedin.com/in/paula-aribeiro/"],
         "title": "Como ensinar iniciantes em programação - e por que isso importa",
         "description": "Nessa palestra eu vou falar da importância de saber ensinar, como isso impacta na sua carreira e na das outras pessoas. Também vou ensinar técnicas e dar dicas práticas do que fazer e não fazer quando estiver ensinando pessoas mais iniciantes, baseadas no meu aprendizado como instrutora da Labenu, uma escola de programação focada em empregabilidade que acolhe pessoas de diversas áreas."
       },
       {
         "hour": "18:30",
         "title": "Indo um pouco além no desenvolvimento de APIs Rest",
-        "name": "Lucas Caponi",
+        "name": ["Lucas Caponi"],
+        "socialMedia": ["https://www.linkedin.com/in/lucascaponidasilva/"],
         "description": "Utilizando query params e a especificação JSON-API (dentro disso entram questões como filtros, paginação, ordenação, relacionamentos, escolha de recursos e content negociation);  <br> Melhorando a visualização dos dados com Serializers; <br> Query Params vs GraphQL; <br> Estratégias de Versionamento de APIs; <br> Limitando requisicões (Throttling e Quota); <br> Gestão de custos em APIs; <br> Cacheando APIs?;<br> APIs públicas vs APIs privadas; <br> O que são Web hooks e como podem me ajudar?;<br> Conhecendo o Swagger; <br> API Gateway"
       },
       {
         "hour": "19:15",
-        "name": "Weverton Timoteo",
+        "name": ["Weverton Timoteo"],
+        "socialMedia": ["https://twitter.com/wevtimoteo"],
         "title": "Ruby 3 e Análise Estática: O que esperar e o que significa para o nosso código",
         "description": "O Ruby tem se reinventado para atender as demandas da comunidade e continuar relevante nos últimos anos. O que a comunidade tanto espera é o Ruby 3? Afetando não só o código que escrevemos mas também a performance das nossas apps. Além de melhorias em consumo de CPU/memória e otimizações em concorrência, teremos também o suporte para tipagem estática. O que isso significa para o nosso código e como a qualidade será afetada? Quais as métricas mais importantes para medir a qualidade de código do projeto que você trabalha e como começar a medir em um projeto Ruby?"
       },
       {
         "hour": "20:00",
-        "name": "",
+        "name": [""],
+        "socialMedia": [""],
         "title": "Sorteio & Até Amanhã"
       }
     ]
@@ -78,64 +95,80 @@
     "talks": [
       {
         "hour": "13:00",
-        "name": "",
+        "name": [""],
+        "socialMedia": [""],
         "title": "Abertura"
       },
       {
         "hour": "13:10",
-        "name": "Caio Salgado",
+        "name": ["Caio Salgado"],
+        "socialMedia": ["https://twitter.com/Caio_CSalgado"],
         "title": "Olá Ractors! Ruby 3 rodando código em paralelo",
         "description": "Apresentarei os modelos de programação concorrente que o Ruby possui, tanto o MRI, quanto JRuby e TruffleRuby. Vantagens, desvantagens e diferenças; tudo com exemplos de código, para depois mostrar os Ractors.  Ractor é uma nova abstração para concorrência que o Ruby 3 vai trazer. Pretendo, a partir de exemplos, mostrar como funcionam e como possibilitam rodar código Ruby em paralelo de maneira simples, e trocando dados entre cada thread."
       },
       {
         "hour": "13:55",
-        "name": "Fabrício Buzeto",
+        "name": ["Fabrício Buzeto"],
+        "socialMedia": ["https://twitter.com/nukdf"],
         "title": "Construindo o Stonehenge usando a Lei de Gall",
         "description": "A Lei de Gall diz que todo sistema complexo evolui de sistemas mais simples que funcionaram. Deixe-me apresentar uma abordagem de passos pequenos e seguros para começar pequeno e crescer em complexidade junto com o seu domínio, mostrando as pistas, técnicas e ferramentas que podem ajudar neste caminho, usando como base uma história real, que cresceu de 50 usuários para mais de 1 milhão em pouco tempo."
       },
       {
         "hour": "14:40",
         "title": "Caches Fantásticas e Onde Habitam",
-        "name": "Lívia Almeida",
+        "name": ["Lívia Almeida"],
+        "socialMedia": ["https://www.linkedin.com/in/liviaab/ "],
         "description": "Uma das formas de aumentar a performance de uma aplicação é utilizando caching e Rails provê muitas funcionalidades que facilitam o uso de cache no sistema. Nessa palestra serão apresentados conceitos de caching, as opções fornecidas pelo framework e também sobre os problemas que podem acontecer, com o exemplo de um caso real que aconteceu na Saraiva Educação."
       },
       {
         "hour": "15:25",
-        "name": "",
+        "name": [""],
+        "socialMedia": [""],
         "title": "Sorteio"
       },
       {
         "hour": "15:30",
-        "name": "Diego Moreira",
+        "name": ["Diego Moreira"],
+        "socialMedia": ["https://twitter.com/diegodukao"],
         "title": "Fazendo Música com Sonic Pi",
         "description": "Sonic Pi é um sintetizador onde você programa a música. Ele é simples o suficiente para ser usado tanto para ensinar programação quanto para ensinar música. E não é necessário nenhum conhecimento prévio em nenhum dos dois assuntos para começar a mexer com ele, basta instalar e começar a seguir o tutorial que vem junto.  Mas muito mais do que só uma ferramenta de ensino, o Sonic Pi é um instrumento musical. Ou muitos instrumentos musicais, depende de como você quer fazer. O Sonic Pi vem com diversos sintetizadores e samples para você fazer todo tipo de som que vier na sua cabeça. E foi feito para performance ao vivo. Basicamente, como um maestro ou DJ do futuro, você abre seu computador, liga na caixa de som e começa a compor ao vivo a sua música, as suas batidas. E bota o povo pra dançar! Inclusive existem eventos exatamente pra isso: são as Algoraves. Essa palestra será totalmente mão na massa e vou mostrar como começar a fazer música com Sonic Pi. Vai ter muito som! Vou mostrar como tocar as primeiras notas e acordes, como usar escalas (você não precisa saber como funciona pra usar!) e outros conceitos de música, como usar mexer com samples e como começar a brincar de compor ao vivo! Além de passar por tópicos mais avançados como integração com controladores MIDI e sintetizadores externos."
       },
       {
         "hour": "16:15",
-        "name": "Alda Rocha, Philip Sampaio, Carolina Brito, Carolina Karklis",
-        "title": "Mesa Redonda - Comunidade",
-        "description": "Papo de Comunidade"
+        "name": ["Alda Rocha", "Philip Sampaio", "Carolina Brito", "Carolina Karklis"],
+        "socialMedia": [
+          "https://twitter.com/mjcoffeeholick",
+          "https://twitter.com/philipsampaio",
+          "https://twitter.com/coabrito1",
+          "https://twitter.com/carolkarklis"
+        ],
+        "title": "Mesa Redonda - Comunidade, Experiências e Diversidade",
+        "description": "Esse time incrível vai trocar uma ideia super legal sobre comunidade, experiências de vida e de trampo e sobre diversidade. Já prepare sua pergunta pra essa galera!"
       },
       {
         "hour": "17:00",
         "title": "A superficialidade da diversidade e seus perigos na TI",
-        "name": "Marina Joranhezon",
+        "name": ["Marina Joranhezon"],
+        "socialMedia": ["https://twitter.com/normaldacandina"],
         "description": "Comentar sobre os números que permeiam esse tema de \"diversidade\". Mas o principal ponto seria criticar essa nossa abordagem de diversidade na TI, que utiliza um termo genérico pra tentar encaixar todas as minorias nele, acabando por apagar as peculiaridades de cada um desses grupos. Além disso, falar sobre como isso impacta a TI e acaba por criar produtos racistas, machistas, transfóbicos, capacitistas, etc."
       },
       {
         "hour": "17:45",
-        "name": "Radamés Roriz",
+        "name": ["Radamés Roriz"],
+        "socialMedia": ["https://www.linkedin.com/in/radames-roriz/"],
         "title": "Escalando o ambiente de desenvolvimento com CLI em Ruby", "description": "Na Revelo tivemos rápido crescimento em um curto período de tempo, tornando processos que eram simples em tarefas que se estendiam por dias completamente improdutivos. Criar uma ferramenta que permita abstrair a arquitetura de serviços foi fundamental para aumentar o engajamento e a produtividade dos times.  Uma ferramenta feita em Ruby e com abstrações do Docker permitiu que todos os times tivessem o mesmo ambiente de desenvolvimento, facilitando o onboarding. A ferramenta passou por evoluções como setup do ambiente, ambiente seletivo, comunicação entre serviços de dentro e de fora do Docker, autocomplete e auto update, evoluções que ajudam outros times a se preocupar menos com processo e mais com a evolução da plataforma."
       },
       {
         "hour": "18:30",
         "title": "Rails Upgrade: como atualizamos uma aplicação gigante utilizando a estratégia de dual boot",
-        "name": "Cleiviane Costa",
+        "name": ["Cleiviane Costa"],
+        "socialMedia": ["https://twitter.com/cleivianecosta"],
         "description": "Sabemos a importância de manter nossos sistemas sempre nas últimas versões (novas funcionalidades, correções de falhas de segurança, melhoria de performance, etc), mas fazer o upgrade de uma aplicação Rails nem sempre é uma tarefa fácil.<br> Nesta palestra irei falar sobre minha experiência trabalhando no upgrade de uma aplicação gigantesca e quais o desafios encontrados pela equipe."
       },
       {
         "hour": "19:15",
-        "name": "",
+        "name": [""],
+        "socialMedia": [""],
         "title": "Sorteio & Encerramento"
       }
     ]
