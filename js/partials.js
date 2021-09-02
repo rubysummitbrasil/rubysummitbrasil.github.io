@@ -1,19 +1,4 @@
 const RubySummit = {
-  renderSpeakerInfo: function(talk) {
-    speakerInfo = `
-      <a
-        href="${talk.socialMedia[0]}" target="_blank"
-        class="speaker-name" title="${talk.name[0]}">
-        <br /> ${talk.name[0]}</a>`
-
-    for (let i = 1; i < talk.name.length; i++) {
-      speakerInfo +=
-        `,<a href="${talk.socialMedia[i]}" target="_blank"
-          title="${talk.name[i]}"> ${talk.name[i]}</a>`;
-    }
-
-    return speakerInfo
-  },
   renderSchedule: function() {
     fetch("data/schedule.json")
     .then(response => {
@@ -67,14 +52,6 @@ fetch("partials/rubysummitbr.html")
 })
 .then(data => {
   document.querySelector("#rubysummitbr").innerHTML = data;
-});
-
-fetch("partials/speakers.html")
-.then(response => {
-  return response.text()
-})
-.then(data => {
-  document.querySelector("#speakers").innerHTML = data;
 });
 
 fetch("partials/schedule.html")

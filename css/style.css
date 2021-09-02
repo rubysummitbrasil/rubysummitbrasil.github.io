@@ -29,18 +29,22 @@ a, a:hover, a:visited {
 }
 
 footer {
-  color: #000;
   text-align: center;
   font-weight: bolder;
-  height: 70px;
+  height: 90px;
+  max-height: 95px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: #790100;
 }
 
-footer p {
-  color: #380000;
+footer p, footer h3 {
+  color: #FFF;
 }
 
 footer a, footer a:visited, footer a:hover {
-  color: #380000;
+  color: #FFF;
   text-decoration: underline;
 }
 
