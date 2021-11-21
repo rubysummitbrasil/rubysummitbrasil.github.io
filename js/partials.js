@@ -1,4 +1,18 @@
 const RubySummit = {
+  renderSpeakerInfo: function(talk) {
+    speakerInfo = `
+      <a
+        href="${talk.socialMedia[0]}" target="_blank"
+        class="speaker-name" title="${talk.name[0]}">
+        <br /> ${talk.name[0]}</a>`
+
+    for (let i = 1; i < talk.name.length; i++) {
+      speakerInfo +=
+        `,<a href="${talk.socialMedia[i]}" target="_blank" title="${talk.name[i]}"> ${talk.name[i]}</a>`;
+    }
+
+    return speakerInfo
+  },
   renderSchedule: function() {
     fetch("data/schedule.json")
     .then(response => {
@@ -9,6 +23,7 @@ const RubySummit = {
         const trackDay = document.querySelector(`.track[data-day="${track.day}"]`)
 
         const table = trackDay.querySelector('tbody')
+
         track.talks.forEach(talk => {
           table.innerHTML +=
             `

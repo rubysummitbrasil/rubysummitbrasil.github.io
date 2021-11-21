@@ -2,11 +2,135 @@
   {
     "day": "friday",
     "talks": [
+      {
+        "hour": "13:00",
+        "name": [""],
+        "socialMedia": [""],
+        "title": "Abertura"
+      },
+      {
+        "hour": "13:15",
+        "title": ["Como lidar com o paradoxo da escolha?"],
+        "socialMedia": ["about.buzeto.com"],
+        "name": ["Fabricio Buzeto"],
+        "description": "Ter opções é melhor que não ter opções. Porém, opções demais pode ser paralizante, ainda mais quando não sabemos qual caminho seguir. Deixe-me contar algumas formas de como fazer boas escolhas. Esta é uma das maiores habilidades de quem desenvolve software. Desde as pequenas decisões do dia a dia até os grandes direcionamentos de negócio em que você está inserido."
+      },
+      {
+        "hour": "14:10",
+        "name": ["Matheus Caceres Silva"],
+        "socialMedia": ["https://twitter.com/@matheusca"],
+        "title": "Arquitetura de Eventos com Trailblazer + Eventide",
+        "description": "Criar uma linha do tempo dos “momentos” ocorridos dentro do software habilita uma série de funcionalidades importantes para as empresas. Ter disponível dados sobre quando algo aconteceu e ter um histórico de mudanças desses dados podem permitir ter uma visão 360 da jornada do cliente, além de proporcionar aumento do engajamento do produto.\nUm das maneiras de se atingir esse objetivo é tendo uma arquitetura de eventos. Nessa talk vou mostrar como meu time está construindo uma arquitetura de eventos com duas ferramentas do universo Ruby: Trailblazer + Eventide."
+      },
+      {
+        "hour": "15:05",
+        "name": ["Potix", "Ana Akisawa"],
+        "socialMedia": [""],
+        "title": "Roda de conversa - O ruby morreu?",
+        "description": "Vamos conversar com pessoas que sairam do ruby e estão codando em outras linguagens para discutir sobre o porquê delas terem saído, se tem saudades, se pretendem voltar, entre outros pontos"
+      },
+      {
+        "hour": "16:00",
+        "name": [""],
+        "socialMedia": [""],
+        "title": "Intervalo & sorteios",
+        "description": "Aquela pausinha pro café e pra testar a sorte"
+      },
+      {
+        "hour": "16:55",
+        "name": ["Ana Schwendler"],
+        "socialMedia": ["https://twitter.com/anaschwendler"],
+        "title": "Usando VCR para simular requisições",
+        "description": "Durante os últimos meses tenho convivido bastante com API externas, e uma ferramenta que usamos bastante no meu time é o VCR para simular requisições a essas APIs. Minha palestra é para dividir meus aprendizados até agora e compartilhar dicas :)"
+      },
+      {
+        "hour": "17:50",
+        "name": ["Priscila Manhaes"],
+        "socialMedia": ["https://twitter.com/@pmnhaes"],
+        "title": "Better Specs - ou specs even better",
+        "description": "Todos nós amamos testes, ou ainda, esperamos que todos amem testes. Além de garantir a integridade do que entregamos no dia a dia, nossos testes podem fornecer dados relevantes sobre como implementamos nossos códigos e por que não documentações. Better Specs é um conjunto de boas práticas que pode ser usado nas principais suites de testes Ruby (Rspec Já pegou aquele arquivo que tem mil linhas e pensou que poderia ser vários arquivos menores? Ou pior, já codou um arquivo tão carregado de informações que os testes ficaram gigantes? Vem comigo e vamos descobrir como contornar essa situação./Minitest), baseado em anos de experiencies de diversos desenvolvedores, e que pode servir de inspiração para deixar seus testes ainda mais legíveis."
+      },
+      {
+        "hour": "18:45",
+        "name": ["Roberson Miguel"],
+        "socialMedia": ["https://twitter.com/@biosbug"],
+        "title": "Transformando vidas através da tecnologia",
+        "description": "Compartilhar a experiencia de engajamento de funcionários nas empresas de tecnologia no processo de criação de modelo de disseminação de conhecimentos de tecnologia com jovens carentes, porém com um olhar mais de acolhimento e trocas de vivencias para inclusão do que necessariamente tecnológico."
+      },
+      {
+        "hour": "19:35",
+        "name": [""],
+        "socialMedia": [""],
+        "title": "Sorteios & encerramento",
+        "description": ""
+      }
     ]
   },
   {
     "day": "saturday",
     "talks": [
+      {
+        "hour": "13:00",
+        "name": [""],
+        "socialMedia": [""],
+        "title": "Abertura"
+      },
+      {
+        "hour": "13:15",
+        "name": ["Roberson Miguel", "Felipe Bonel", "Tainara", " Samanta Lopes", "Rafael Gomes"],
+        "socialMedia": [""],
+        "title": "Roda de conversa - Diversidade sócio-econômica",
+        "description": "Painel para falarmos sobre diversidade, especialmente sócio-econômica (mas considerando vários outros recortes também), dentro de tecnologia."
+      },
+      {
+        "hour": "14:10",
+        "name": ["Cleiviane Costa"],
+        "socialMedia": ["https://twitter.com/cleicar_rb"],
+        "title": "Programando na gringa: a carreira de dev fora do Brasil",
+        "description": "Em breve"
+      },
+      {
+        "hour": "15:05",
+        "name": ["João Paulo Lethier"],
+        "socialMedia": ["https://twitter.com/jplethier"],
+        "title": "Usando database views em aplicações Rails",
+        "description": "O uso de views e materialized views(mviews) do banco de dados pode ser uma boa alternativa para melhoria de performance e até melhoria do uso dos recursos do banco de dados, inclusive sendo uma alternativa mais simples, se comparado a ferramentas mais robustas e complexas, e ainda assim entregar um ótimo resultado. Mas o que exatamente são views e mviews? Como podemos usar? É fácil integrar em aplicações rails? Abordarei essas perguntas, além de compartilhar um case de sucesso que tivemos ano passado na Zygo durante a entrega do deliverydobem"
+      },
+      {
+        "hour": "16:00",
+        "name": [""],
+        "socialMedia": [""],
+        "title": "Intervalo & sorteios",
+        "description": "Aquela pausinha pro café e pra testar a sorte"
+      },
+      {
+        "hour": "16:55",
+        "name": ["Daniel Moreto"],
+        "socialMedia": ["https://twitter.com/dfmoreto"],
+        "title": "Arel - Consultas além do Active Record",
+        "description": "A idéia da palestra é abordar tópicos de construção de consultas mais complexas utilizando o Arel.\n\nPara consultas simples, como buscar um model ou contar a quantidade de registros o Active Record geralmente funciona muito bem, mas as consultas SQL tem complexidades que podem envolver a necessidade de sub-queries, multiplicação de campos, extração de data e afins.\n\nPor exemplo, se eu tenho um Ecommerce, para descobrir o total de uma venda precisaria fazer uma operação bem próxima SELECT SUM(line_items.price * line_item.quantity) FROM line_items, onde o Active Record já não atenderia tão bem, porém uma operação com Arel deixaria a construção \"\"programável\"\" e compreensível.\n\nNa palestra eu quero mostrar de modo prático, com terminal aberto, o Arel envolvendo operações SQL simples, como \"\"LIKE\"\", operações mais complexas que envolvam cálculos de contagem e soma e possivelmente construções que envolvam sub-queries."
+      },
+      {
+        "hour": "17:50",
+        "name": ["Maurício Szabo"],
+        "socialMedia": ["https://twitter.com/@mauricio_szabo"],
+        "title": "Kubernetes - necessário, ou complicar coisas simples?",
+        "description": "Recentemente, há muita gente se perguntando: mas eu preciso de docker? E de kubernetes? Não era mais fácil como as coisas eram antes?\n\nNessa palestra, vou apresentar o básico de Kubernetes, tentando mostrar o básico da arquitetura e desmistificar um pouco o conceito de containers, para tentar mostrar qual o problema que ele resolve - e principalmente, se você, desenvolvedor, se familiariza com esse problema.\n\nDepois, vou mostrar algumas diferenças não apenas do \"\"deploy\"\" de uma app dentro de kubernetes, mas também de como pensar na solução, não apenas no código mas também no produto."
+      },
+      {
+        "hour": "18:45",
+        "name": ["Marina Joranhezon"],
+        "socialMedia": ["https://twitter.com/ninadormecida"],
+        "title": "Como separar responsabilidades de código",
+        "description": "Já pegou aquele arquivo que tem mil linhas e pensou que poderia ser vários arquivos menores? Ou pior, já codou um arquivo tão carregado de informações que os testes ficaram gigantes? Vem comigo e vamos descobrir como contornar essa situação."
+      },
+      {
+        "hour": "19:35",
+        "name": [""],
+        "socialMedia": [""],
+        "title": "Sorteios & encerramento",
+        "description": ""
+      }
     ]
   }
 ]
