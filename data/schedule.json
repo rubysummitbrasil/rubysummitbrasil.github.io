@@ -52,10 +52,10 @@
       },
       {
         "hour": "18:45",
-        "name": ["Roberson Miguel"],
+        "name": ["Roberson Miguel", "Thais Kusuki", "Victor Silva"],
         "socialMedia": ["https://twitter.com/@biosbug"],
         "title": "Transformando vidas através da tecnologia",
-        "description": "Compartilhar a experiencia de engajamento de funcionários nas empresas de tecnologia no processo de criação de modelo de disseminação de conhecimentos de tecnologia com jovens carentes, porém com um olhar mais de acolhimento e trocas de vivencias para inclusão do que necessariamente tecnológico."
+        "description": "O Roberson Miguel junto com a Thais Kusuki e o Victor Silva vão compartilhar a experiência de engajamento de funcionários de empresas de tecnologia no processo de criação de um modelo de disseminação de conhecimentos de tecnologia com jovens carentes, porém com um olhar mais de acolhimento e trocas de vivências para inclusão do que necessariamente tecnológico."
       },
       {
         "hour": "19:35",
@@ -87,7 +87,7 @@
         "name": ["Cleiviane Costa"],
         "socialMedia": ["https://twitter.com/cleicar_rb"],
         "title": "Programando na gringa: a carreira de dev fora do Brasil",
-        "description": "Em breve"
+        "description": "Já pensou em trabalhar remoto para empresas do exterior e receber em dólar? Isso pode estar mais próximo do que você imagina. Nessa palestra irei contar minha experiência trabalhando como dev para uma empresa americana: o processo seletivo, os desafios, a burocracia e as principais dúvidas de quem almeja o tão sonhado trabalho gringo."
       },
       {
         "hour": "15:05",
