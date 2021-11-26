@@ -1,15 +1,23 @@
 const RubySummit = {
   renderSpeakerInfo: function(talk) {
-    speakerInfo = `
+    const speakerInfo = talk.name.map((name,index) => {
+      speaker = talk.socialMedia[index] ? `
       <a
-        href="${talk.socialMedia[0]}" target="_blank"
-        class="speaker-name" title="${talk.name[0]}">
-        <br /> ${talk.name[0]}</a>`
+        href="${talk.socialMedia[index]}" target="_blank"
+        class="speaker-name" title="${name}">
+        ${name || ""}
+      </a>` : `${name || ""}`
 
-    for (let i = 1; i < talk.name.length; i++) {
-      speakerInfo +=
-        `,<a href="${talk.socialMedia[i]}" target="_blank" title="${talk.name[i]}"> ${talk.name[i]}</a>`;
-    }
+      if(talk.name.length === 1 && talk.position[index]) {
+        speaker += `<br>${talk.position[index]}`
+
+        if (talk.company[index]) {
+          speaker += ` @ ${talk.company[index]}`
+        }
+      }
+
+      return speaker
+    }).join(", ")
 
     return speakerInfo
   },
@@ -33,6 +41,7 @@ const RubySummit = {
                 </td>
                 <td>
                   <span class="title" title="${talk.title}"><strong>${talk.title}</strong></span>
+                  <br>
                   ${this.renderSpeakerInfo(talk)}
                 </td>
               </tr>
