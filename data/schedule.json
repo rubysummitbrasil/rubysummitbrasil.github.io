@@ -30,10 +30,15 @@
       },
       {
         "hour": "15:05",
-        "name": ["PotHix", "Ana Akisawa"],
+        "name": ["PotHix", "Ana Paula Akisawa", "Vittoria Bitton", "Jordana Nogueira"],
         "position": [],
         "company": [],
-        "socialMedia": ["", ""],
+        "socialMedia": [
+          "https://pothix.com",
+          "https://www.linkedin.com/in/ana-paula-akisawa/",
+          "https://twitter.com/vittoria_bitton",
+          "https://www.linkedin.com/in/jordananogsilva/"
+        ],
         "title": "Roda de conversa - O ruby morreu?",
         "description": "Vamos conversar com pessoas que saíram do Ruby e estão codando em outras linguagens para discutir sobre o porquê delas terem saído, se têm saudades, se pretendem voltar, entre outros pontos"
       },
@@ -69,7 +74,10 @@
         "name": ["Roberson Miguel", "Thais Kusuki", "Victor Silva"],
         "position": [],
         "company": [],
-        "socialMedia": ["https://twitter.com/@biosbug"],
+        "socialMedia": [
+          "https://twitter.com/@biosbug",
+          "https://twitter.com/tkusuki"
+        ],
         "title": "Transformando vidas através da tecnologia",
         "description": "O Roberson Miguel, junto com a Thais Kusuki e o Victor Silva vão compartilhar a experiência de engajamento de funcionários de empresas de tecnologia no processo de criação de um modelo de disseminação de conhecimentos de tecnologia com jovens carentes, porém com um olhar mais de acolhimento e trocas de vivências para inclusão do que necessariamente tecnológico."
       },
@@ -100,7 +108,13 @@
         "name": ["Roberson Miguel", "Renato Bednarski", "Tainara Almeida", " Samanta Lopes", "Rafael Gomes"],
         "position": [],
         "company": [],
-        "socialMedia": [],
+        "socialMedia": [
+          "https://twitter.com/biosbug",
+          "https://instagram.com/renato.bedmos",
+          "https://twitter.com/",
+          "https://www.linkedin.com/in/samantalopes",
+          "https://www.linkedin.com/in/rafael-gomes-francisco/"
+        ],
         "title": "Roda de conversa - Diversidade sócio-econômica",
         "description": "Painel para falarmos sobre diversidade, especialmente sócio-econômica (mas considerando vários outros recortes também), dentro de tecnologia."
       },
