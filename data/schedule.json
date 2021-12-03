@@ -52,6 +52,15 @@
         "description": "Aquela pausinha pro café e pra testar a sorte"
       },
       {
+        "hour": "16:40",
+        "name": ["Rebase"],
+        "position": [],
+        "company": [],
+        "socialMedia": [],
+        "title": "Lightning Talk",
+        "description": "Um papo interessante com nossa apoiadora Rebase - Não perca!"
+      },
+      {
         "hour": "16:55",
         "name": ["Ana Schwendler"],
         "position": ["Software Engineer"],
