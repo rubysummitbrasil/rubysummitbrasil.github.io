@@ -25,6 +25,10 @@
   background: linear-gradient(180deg, #e6e4da 12%, #fff 19%);
 }
 
+#sponsors a, #sponsors a:visited {
+  color: #000;
+}
+
 .rubysummitbr {
   background: linear-gradient(180deg, rgba(36,0,0,1) 0%, rgba(89,0,0,1) 0%, rgba(162,0,0,1) 100%);
   padding: 5px;
